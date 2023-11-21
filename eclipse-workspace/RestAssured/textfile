@@ -1,0 +1,77 @@
+urls:
+
+local json files api: 
+http://localhost:3000/students
+other urls:
+
+http://restapi.adequateshop.com/swagger/ui/index
+http://restapi.adequateshop.com/api/traveler/?page=1
+#return response in xml format
+
+
+
+
+
+
+
+
+notes: given()
+		#prerequisites like, parameters,cookies,headers,authentication
+	when()
+		#request urls
+	then()
+		#validations of status code,response,body
+
+
+
+data for class httpreq under day1 package
+get user
+https://reqres.in/api/users?page=2
+
+
+create user
+https://reqres.in/api/users
+
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+
+
+patch to update
+https://reqres.in/api/users/2
+
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+
+delete
+https://reqres.in/api/users/2
+
+################################################################
+
+Ways to create POST request:
+-----------------------------------------------------------------------------
+while sending post request , request body is sent with the request
+
+different ways to create request body:
+------------------------------------------
+1.hashmap
+2.org.json
+3.POJO class
+4.external json file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
